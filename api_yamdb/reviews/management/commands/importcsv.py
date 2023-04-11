@@ -4,8 +4,8 @@ import os
 from django.conf import settings
 from django.core.management.base import BaseCommand
 from django.shortcuts import get_object_or_404
-from users.models import User
 from reviews.models import Category, Comment, Genre, GenreTitle, Review, Title
+from users.models import User
 
 
 def get_reader(file_name):
