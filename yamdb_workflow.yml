@@ -46,7 +46,6 @@ jobs:
           context: ./api_yamdb/
           tags: lordkisik/yamdb_final:v1
 
-
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
