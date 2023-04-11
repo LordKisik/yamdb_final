@@ -43,8 +43,9 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
+          context: ./api_yamdb/
           tags: lordkisik/yamdb_final:v1
-          file: api_yamdb/Dockerfile
+
 
   deploy:
     runs-on: ubuntu-latest

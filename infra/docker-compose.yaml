@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: lordkisik/api_yamdb-web:v1.0
+    image: lordkisik/yamdb_final:v1
     restart: always
     volumes:
       - static_value:/app/static/
