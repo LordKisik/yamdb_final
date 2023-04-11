@@ -79,13 +79,13 @@ class SignupView(views.APIView):
             email=serializer.data.get('email'),
         )
         confirmation_code = default_token_generator.make_token(user)
-        EMAIL_MESSAGE = (
+        email_message = (
             f'Привет, {user.username}!'
             f'Твой код подтверждения: {confirmation_code}'
         )
         send_mail(
             subject='Confirmation code for YaMDb',
-            message=EMAIL_MESSAGE,
+            message=email_message,
             from_email=None,
             recipient_list=[user.email],
             fail_silently=False,
