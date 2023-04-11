@@ -44,6 +44,7 @@ jobs:
         with:
           push: true
           tags: lordkisik/yamdb_final:v1.0
+          file: api_yamdb/Dockerfile
 
   deploy:
     runs-on: ubuntu-latest
