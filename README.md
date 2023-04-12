@@ -1,6 +1,7 @@
 ![yamdb_final status](https://github.com/LordKisik/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master&event=push)
 
 <h1 align="center">yamdb_final</h1>
+Адрес проекта: http://62.84.119.18/api/v1/
 
 ## Описание проекта
 Проект YaMDb собирает отзывы пользователей на произведения. Сами произведения в YaMDb не хранятся, здесь нельзя посмотреть фильм или послушать музыку.<br/>
