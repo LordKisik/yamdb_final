@@ -1,5 +1,4 @@
-[![yamdb_final status](https://github.com/LordKisik/yamdb_final/workflows/yamdb_workflow/badge.svg)](https://github.com/LordKisik/yamdb_final/actions/workflows/yamdb_workflow.yml)
-
+![yamdb_final status](https://github.com/LordKisik/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=master&event=push)
 
 <h1 align="center">yamdb_final</h1>
 
